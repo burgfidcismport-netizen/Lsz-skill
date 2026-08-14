@@ -1,0 +1,13 @@
+interface:
+  display_name: 活人感写作
+  short_description: 从热点选题、材料研究到成稿，写出有活人感的中文作品
+  default_prompt: 使用 $human-writing；如果我没有想法，先检索近期热点供我选择，再通过多轮澄清确定主旨、研究材料、确认框架并完成写作。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
